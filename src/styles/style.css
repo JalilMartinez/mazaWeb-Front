@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'PixeloidSans';
-    src: url('../../assets/fonts/PixeloidMono-d94EV.ttf');
+    src: url('./PixeloidMono-d94EV.ttf');
 }
 :root{
     --fuenteHeading: 'PixeloidSans','ArcadeClassic', sans-serif;
