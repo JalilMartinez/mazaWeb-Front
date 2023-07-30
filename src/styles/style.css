@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'PixeloidSans';
+    src: url('../../assets/fonts/PixeloidMono-d94EV.ttf');
+}
+:root{
+    --fuenteHeading: 'PixeloidSans','ArcadeClassic', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+    --primario: #784D3C;
+    --gris: #adabab; 
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--fuenteHeading);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+a{
+    text-decoration: none !important;
+}

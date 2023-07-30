@@ -1,0 +1,35 @@
+
+.nav{
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 7rem;
+    background: rgba(36, 77, 62, 0.946);
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.links-left{
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+    
+}
+.links-Right{
+    padding-right: 1.5rem;
+}
+
+.nav-link {
+    color: var(--blanco);
+    text-shadow: 0 0 0.2em rgb(120, 14, 122);
+}

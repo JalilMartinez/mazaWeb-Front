@@ -1,0 +1,95 @@
+
+header{
+    padding: 0px;
+    margin: 0 auto;
+    line-height: 8px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px #211e1e, 2px 2px #7717a4, 3px 3px #211e1e, 4px 4px #7717a4;
+    color: var(--blanco);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/header.gif);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;   
+}
+@media (min-width:300px) {
+    header{
+        line-height: 10px;
+        font-size: 1.5rem;
+    }
+}
+@media (min-width:350px) {
+    header{
+        line-height: 10px;
+        font-size: 1.7rem;
+    }
+}
+@media (min-width:530px) {
+    header{
+        line-height: 15px;
+        font-size: 1.8rem;
+    }
+}
+@media (min-width:630px) {
+    header{
+        line-height: 25px;
+        font-size: 1.9rem;
+    }
+}
+@media (min-width:700px) {
+    header{
+        line-height: 35px;
+        font-size: 2.1rem;
+    }
+}
+@media (min-width:760px) {
+    header{
+        line-height: 45px;
+        font-size: 2.4rem;
+    }
+}
+@media (min-width:860px) {
+    header{
+        line-height: 55px;
+        font-size: 2.8rem;
+    }
+}
+@media (min-width:910px) {
+    header{
+        line-height: 65px;
+        font-size: 3rem;
+    }
+}
+@media (min-width:1030px) {
+    header{
+        line-height: 75px;
+        font-size: 3.5rem;
+    }
+}
+@media (min-width:1150px) {
+    header{
+        line-height: 85px;
+        font-size: 3.8rem;
+    }
+}
+@media (min-width:1380px) {
+    header{
+        line-height: 95px;
+        font-size: 4.2rem;
+    }
+}
+
+
+.content-header{
+    padding-top:9rem;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
