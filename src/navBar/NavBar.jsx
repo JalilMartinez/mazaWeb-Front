@@ -7,11 +7,11 @@ export const NavBar = () => {
             <div className='nav-logo'></div>
             <div className='nav-links'>
                 <div className='links-left'>
-                    <Link className="nav-link" to="/" >Presentacion</Link>
-                    <Link className="nav-link" to="/myProyects" >Mis proyectos</Link>
+                    <Link className="nav-link" to="/mazaWeb-Front" >Presentacion</Link>
+                    <Link className="nav-link" to="/mazaWeb-Front/myProyects" >Mis proyectos</Link>
                 </div>
                 <div className='links-Right'>
-                    <Link className="nav-link" to="/" >Login</Link>
+                    <Link className="nav-link" to="/mazaWeb-Front" >Login</Link>
                 </div>
             </div>
        </nav>
