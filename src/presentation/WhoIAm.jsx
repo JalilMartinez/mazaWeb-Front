@@ -34,7 +34,7 @@ export const WhoIAm = () => {
                     </div>{/* presentation-description */}
                     <div className='presentation-info'>
                         <div className='info-photo'>
-                            <img className='photo' src="../../../assets/myPhoto.png" alt="" />
+                            <img className='photo' src="./myPhoto.png" alt="" />
                         </div>
                         <div className='info-text'>
                             <h2 className='title'>Ingeniero En Comunicaciones y Electrónica</h2>
