@@ -1,10 +1,14 @@
 @font-face {
     font-family: 'PixeloidSans';
-    src: url('./PixeloidMono-d94EV.ttf');
+    src: url('../../assets/fonts/PixeloidMono-d94EV.ttf');
+}
+@font-face {
+    font-family: 'ChakraPetch';
+    src: url('../../assets/fonts/ChakraPetch-Regular.ttf');
 }
 :root{
     --fuenteHeading: 'PixeloidSans','ArcadeClassic', sans-serif;
-    --fuenteParrafos: 'Open Sans', sans-serif;
+    --fuenteParrafos: 'ChakraPetch','Open Sans', sans-serif;
     --primario: rgb(36, 77, 62);
     --gris: #adabab; 
     --blanco: #ffffff;
@@ -19,7 +23,7 @@ html{
     box-sizing: inherit;
 }
 body{
-    font-family: var(--fuenteHeading);
+    font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
     line-height: 2;
 }

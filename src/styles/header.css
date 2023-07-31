@@ -1,5 +1,6 @@
 
 .headerBlock{
+    font-family: var(--fuenteHeading);
     padding-top: 0rem;
     text-align: center;
     font-size: 1.3rem;
@@ -7,7 +8,7 @@
     color: var(--blanco);
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(./header.gif);
+    background-image: url(../assets/header.gif);
     background-size: 100%;
     padding-bottom: 4rem;
 }

@@ -1,6 +1,7 @@
 {
   "name": "mazaweb",
   "private": true,
+  "homepage":"https://jalilmartinez.github.io/mazaWeb-Front/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

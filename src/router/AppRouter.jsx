@@ -9,8 +9,8 @@ export const AppRouter = () => {
         <>
                 <NavBar/>
                 <Routes>
-                    <Route path="/mazaWeb-Front" element={<WhoIAm/>}/>
-                    <Route path="/mazaWeb-Front/myProyects" element={<MyProyects/>}/>
+                    <Route path="/" element={<WhoIAm/>}/>
+                    <Route path="/myProyects" element={<MyProyects/>}/>
                 </Routes>
            
         </>
