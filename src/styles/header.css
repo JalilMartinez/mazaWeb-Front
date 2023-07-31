@@ -1,8 +1,6 @@
 
-header{
-    padding: 0px;
-    margin: 0 auto;
-    line-height: 8px;
+.headerBlock{
+    padding-top: 0rem;
     text-align: center;
     font-size: 1.3rem;
     text-shadow: 1px 1px #211e1e, 2px 2px #7717a4, 3px 3px #211e1e, 4px 4px #7717a4;
@@ -11,79 +9,88 @@ header{
     background-repeat: no-repeat;
     background-image: url(./header.gif);
     background-size: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;   
+    padding-bottom: 4rem;
 }
 @media (min-width:300px) {
-    header{
-        line-height: 10px;
+    .headerBlock{
+        padding-top: 0rem;
         font-size: 1.5rem;
     }
 }
 @media (min-width:350px) {
-    header{
-        line-height: 10px;
+    .headerBlock{
+        padding-top: 1rem;
         font-size: 1.7rem;
     }
 }
 @media (min-width:530px) {
-    header{
-        line-height: 15px;
+    .headerBlock{
+        padding-top: 5rem;
         font-size: 1.8rem;
     }
 }
 @media (min-width:630px) {
-    header{
-        line-height: 25px;
+    .headerBlock{
+        padding-top: 6rem;
         font-size: 1.9rem;
     }
 }
 @media (min-width:700px) {
-    header{
-        line-height: 35px;
+    .headerBlock{
+        padding-top: 7rem;
         font-size: 2.1rem;
     }
 }
 @media (min-width:760px) {
-    header{
-        line-height: 45px;
+    .headerBlock{
+        padding-top: 8rem;
         font-size: 2.4rem;
     }
 }
 @media (min-width:860px) {
-    header{
-        line-height: 55px;
+    .headerBlock{
+        padding-top: 9rem;
         font-size: 2.8rem;
     }
 }
 @media (min-width:910px) {
-    header{
-        line-height: 65px;
+    .headerBlock{
+        padding-top: 9rem;
         font-size: 3rem;
+        padding-bottom: 6rem;
     }
 }
 @media (min-width:1030px) {
-    header{
-        line-height: 75px;
+    .headerBlock{
+        padding-top: 9rem;
         font-size: 3.5rem;
+        padding-bottom: 6rem;
     }
 }
 @media (min-width:1150px) {
-    header{
-        line-height: 85px;
+    .headerBlock{
+        padding-top: 9rem;
         font-size: 3.8rem;
+        padding-bottom: 7rem;
     }
 }
 @media (min-width:1380px) {
-    header{
-        line-height: 95px;
+    .headerBlock{
+        padding-top: 10rem;
         font-size: 4.2rem;
+        padding-bottom: 8rem;
     }
 }
-
-
+.technologies{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+@media (min-width:300px) {
+    .technologies{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
 .content-header{
     padding-top:9rem;
     background: rgba(0, 0, 0, 0.3);

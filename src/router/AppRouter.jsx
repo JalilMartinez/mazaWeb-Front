@@ -7,7 +7,6 @@ export const AppRouter = () => {
     return ( 
         
         <>
-         
                 <NavBar/>
                 <Routes>
                     <Route path="/mazaWeb-Front" element={<WhoIAm/>}/>
