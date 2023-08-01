@@ -1,5 +1,6 @@
-import '../styles/header.css'
-import '../styles/WhoIAm.css'
+import '../../styles/header.css'
+import '../../styles/WhoIAm.css'
+import {ListItem} from "../../components/ListItem.jsx";
 export const WhoIAm = () => {
     return ( 
         <>
@@ -34,7 +35,7 @@ export const WhoIAm = () => {
                     </div>{/* presentation-description */}
                     <div className='presentation-info'>
                         <div className='info-photo'>
-                            <img className='photo' src="../assets/myPhoto.png" alt="MyPhoto" />
+                            <img className='photo' src="../assets/img/myPhoto.png" alt="MyPhoto" />
                         </div>
                         <div className='info-text'>
                             <h2 className='title'>Ingeniero En Comunicaciones y Electrónica</h2>
@@ -45,11 +46,19 @@ export const WhoIAm = () => {
                                 he trabajado como desarrollador web, utilizando mis conocimientos, pretendo 
                                 mejorar mi vida como profesional y seguir aprendiendo, dado que el mundo de 
                                 la programación y del desarrollo son ámbitos en los que nunca se termina de aprender.
+                                <div className='info-text-details'>
+                                    <ListItem title={"Edad"} text="23 Años."/>
+                                    <ListItem title={"Ciudad"} text="Ecatepec de Morelos, Mex."/>
+                                    <ListItem title={"Grado"} text="Licenciatura."/>
+                                    <ListItem title={"Nivel"} text="Junior."/>
+                                    <ListItem title={"Lenguaje principal"} text="Java."/>
+                                </div>
                             </h5>
                         </div>
                     </div>
                 </div>{/*content-body-presentation */}
             </main>{/* content-body */}
+            
         </>
      );
 }

@@ -8,7 +8,7 @@
     color: var(--blanco);
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../assets/header.gif);
+    background-image: url(../assets/img/header.gif);
     background-size: 100%;
     padding-bottom: 4rem;
 }
